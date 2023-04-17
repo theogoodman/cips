@@ -1,0 +1,28 @@
+
+
+  CIP: 26
+  Title: LOCK asset description function
+  Authors: Theo Goodman
+  Discussions-To: https://forums.counterparty.io/t/cip-26-lock-asset-description/6557
+  Status: Draft
+  Type: Standards
+  Created: 2023-04-17
+
+Abstract
+Add the function LOCK ASSET DESCRIPTION 
+
+Motivation
+Remove the possiblitly for asset owners to "rug" the image or other data connected with a counterparty asset
+
+Rationale
+While it is good to be able to change an asset description to update broken links and other technical issues in many cases a permanent as possble option for the asset description is wanted.
+Most people that own counterparty assets asume this is already the case, that the description is permanent. This would allow the -option- for asset owners to LOCK the description for all blockchain eternity.
+
+Specification
+Not 100% sure but just copy and paste the code from lock issuance and put jam it in the description area so it works
+
+Example use cases
+Theo creates an asset pointing to imgr,ipfs,inscription or base64 as description. After LOCK DESCRIPTION it is no longer possible to change the description
+
+Copyright
+This document is placed in the public domain.
